@@ -16,6 +16,8 @@ cmake_minimum_required(VERSION 3.20 FATAL_ERROR)
 
 find_package(cetmodules REQUIRED)
 project(larwirecell VERSION 10.01.26 LANGUAGES CXX)
+# Explicitly set the project string
+set(${PROJECT_NAME}_CMAKE_PROJECT_VERSION_STRING "10.01.26__sbn2")
 
 # cetbuildtools contains our cmake modules
 
